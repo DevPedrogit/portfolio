@@ -1,0 +1,36 @@
+.heroContent {
+    margin-top: 74px;
+    .textsContent {
+        max-width: 600px;
+
+        .textTitle {
+            font-size: 52px;
+            font-weight: 400;
+            color: #fff;
+        }
+        .textSubtitle {
+            color: $secondary-color;
+        }
+        .btnContent {
+            .btn00 {
+                width: 180px;
+                height: 46px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                background-color: $primary-color;
+                font-size: 14px;
+                font-weight: 600;
+                margin-top: 40px;
+                &:hover {
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+
+    .setaContent {
+        margin-top: 130px;
+    }
+}

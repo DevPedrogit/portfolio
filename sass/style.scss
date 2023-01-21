@@ -10,8 +10,14 @@
 // Import header
 @import "./others/header.scss";
 
+// Import heroContent
+@import "./others/heroContent.scss";
+
 // Import about
 @import "./others/about.scss";
 
-
+.container00 {
+    background-color: $background-color;
+    min-height: 100vh;
+}
 

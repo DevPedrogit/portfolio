@@ -3,176 +3,62 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.header .navBar .navBarContainer .logo {
-  font-size: 26px;
+.header .navBar .navBarContent .text-logo {
   color: white;
   font-family: "Rowdies", sans-serif;
-  text-decoration: none;
+  font-size: 32px;
 }
-.header .navBar .navBarContainer .logo span {
+.header .navBar .navBarContent .text-logo span {
+  font-size: 34px;
+  font-family: "Rowdies", sans-serif;
   color: #D02F2F;
-  font-family: "Rowdies", sans-serif;
 }
-.header .navBar .navBarContainer .navbar-links {
-  display: flex;
-  gap: 20px;
+.header .navBar .navBarContent .nav-links {
+  flex-grow: 0;
 }
-.header .navBar .navBarContainer .navbar-links a {
-  font-size: 14px;
-  font-weight: 700;
+.header .navBar .navBarContent .nav-links div .navLink {
   color: white;
-  text-decoration: none;
-  transition: 100ms;
 }
-.header .navBar .navBarContainer .navbar-links a:hover {
-  color: #C2C2C2;
-}
-.header .textsContent {
-  max-width: 600px;
-  margin-top: 76px;
-  margin-bottom: 85px;
-  margin-left: 200px;
-}
-.header .textsContent .title {
-  font-weight: 400;
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-.header .textsContent .subTitle {
-  font-weight: 400;
-  font-size: 18px;
+.header .navBar .navBarContent .nav-links div .navLink:hover {
   color: #C2C2C2;
 }
 
-@media (max-width: 900px) {
-  .header .textsContent {
-    margin-bottom: 70px;
-    margin-left: 140px;
-  }
+.heroContent {
+  margin-top: 74px;
 }
-@media (max-width: 768px) {
-  .header .navBar .navBarContainer .logo {
-    font-size: 22px;
-  }
-  .header .navBar .navBarContainer .navbar-links a {
-    font-size: 14px;
-    font-weight: 400;
-  }
-  .header .textsContent {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 400px;
-  }
-  .header .textsContent .title {
-    font-size: 36px;
-  }
-  .header .textsContent .subTitle {
-    font-size: 16px;
-    margin-bottom: 70px;
-  }
+.heroContent .textsContent {
+  max-width: 600px;
 }
-@media (max-width: 600px) {
-  .header .navBar .navBarContainer .logo {
-    font-size: 22px;
-  }
-  .header .navBar .navBarContainer .navbar-links {
-    display: none;
-  }
+.heroContent .textsContent .textTitle {
+  font-size: 52px;
+  font-weight: 400;
+  color: #fff;
 }
-@media (max-width: 400px) {
-  .header .navBar .navBarContainer .logo {
-    font-size: 22px;
-  }
-  .header .navBar .navBarContainer .navbar-links a {
-    font-size: 14px;
-    font-weight: 400;
-  }
-  .header .textsContent {
-    max-width: 300px;
-    margin-bottom: 50px;
-  }
-  .header .textsContent .title {
-    font-size: 30px;
-  }
-  .header .textsContent .subTitle {
-    font-size: 14px;
-  }
+.heroContent .textsContent .textSubtitle {
+  color: #C2C2C2;
 }
-.containerAbout {
-  padding-top: 20px;
+.heroContent .textsContent .btnContent .btn00 {
+  width: 180px;
+  height: 46px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 90px;
-}
-.containerAbout .titleAbout {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 16px;
-  font-weight: 600;
-  margin-left: 100px;
-  margin-bottom: 0;
-  align-self: flex-start;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-.containerAbout .titleAbout::before {
-  content: "";
-  display: block;
-  width: 10px;
-  height: 40px;
+  color: #fff;
   background-color: #D02F2F;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 40px;
 }
-.containerAbout .aboutContent {
-  border: 1px solid red;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 20px;
-  margin: 0 100px;
-}
-.containerAbout .aboutContent .imgAbout {
-  width: 300px;
-  border-radius: 5px;
-}
-.containerAbout .aboutContent .paragraph {
+.heroContent .textsContent .btnContent .btn00:hover {
   color: #C2C2C2;
-  margin: 0;
+}
+.heroContent .setaContent {
+  margin-top: 130px;
 }
 
 .container00 {
-  min-height: 100vh;
   background-color: #060418;
-  color: white;
-}
-.container00 .btnDowload {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  margin-left: 200px;
-  margin-bottom: 136px;
-  width: 240px;
-  height: 50px;
-  border-radius: 5px;
-  color: white;
-  background-color: #D02F2F;
-}
-
-@media (max-width: 900px) {
-  .container00 .btnDowload {
-    margin-left: 140px;
-  }
-}
-@media (max-width: 768px) {
-  .container00 .btnDowload {
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 40px;
-  }
+  min-height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */

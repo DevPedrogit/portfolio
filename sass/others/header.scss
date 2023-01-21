@@ -1,0 +1,30 @@
+.header {
+    .navBar {
+        .navBarContent {
+            .text-logo {
+                color: #ffff;
+                font-family: 'Rowdies', sans-serif;
+                font-size: 32px;
+
+                span {
+                    font-size: 34px;
+                    font-family: 'Rowdies', sans-serif;
+                    color: $primary-color;
+                }
+            }
+
+            .nav-links {
+                flex-grow: 0;
+
+                div {
+                    .navLink {
+                        color: #ffff;
+                        &:hover {
+                            color: $secondary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
