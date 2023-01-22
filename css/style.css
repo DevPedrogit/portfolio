@@ -56,9 +56,52 @@
   margin-top: 130px;
 }
 
+.about .aboutTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.about .aboutTitle::before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 24px;
+  background-color: #D02F2F;
+}
+.about .aboutContent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px 80px;
+  flex-wrap: wrap;
+  background-color: #0f0b2d;
+  border-radius: 3px;
+  padding: 30px;
+}
+.about .aboutContent .imgAbout {
+  width: 320px;
+  border-radius: 5px;
+}
+.about .aboutContent .textAbout {
+  max-width: 400px;
+  color: #C2C2C2;
+  font-weight: 400;
+  margin: 0;
+}
+.about .setaContent {
+  margin-top: 50px;
+}
+
 .container00 {
   background-color: #060418;
   min-height: 100vh;
+}
+.container00 .subTitle {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 60px 0 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

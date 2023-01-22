@@ -1,0 +1,41 @@
+.about {
+    .aboutTitle {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        &::before {
+            content: '';
+            display: block;
+            width: 6px;
+            height: 24px;
+            background-color: $primary-color;
+        }
+    }
+
+    .aboutContent {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 15px 80px;
+        flex-wrap: wrap;
+        background-color: #0f0b2d;
+        border-radius: 3px;
+        padding: 30px;
+
+        .imgAbout {
+            width: 320px;
+            border-radius: 5px;
+        }
+        .textAbout {
+            max-width: 400px;
+            color: $secondary-color;
+            font-weight: 400;
+            margin: 0;
+        }
+    }
+
+    .setaContent {
+        margin-top: 50px;
+    }
+}
